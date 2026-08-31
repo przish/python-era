@@ -64,3 +64,26 @@ y = "John"
 # print(x + y) output: unsupported operand type(s) for +: 'int' and 'str'
 print(x, y)
 
+x = "awesome"
+
+def myfunc():
+    print("Python is", x)
+
+myfunc()
+
+def myfunc():
+    x = "hello"
+    print("Python is", x)
+
+myfunc()
+
+
+def myfunc():
+    global x
+    x = "girlypop"
+    print("Python is", x)
+
+myfunc()
+
+print(x)
+
